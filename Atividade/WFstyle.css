@@ -1,0 +1,116 @@
+*
+{
+	margin: 0; /* margem */
+	padding: 0; /* espaçamento */
+}
+body
+{
+	background-image: url("https://sengece.org.br/wp-content/uploads/2019/09/Floresta-min.png"); /* fundo */
+}
+#caixa-meio
+{
+	width: 500px; /* largura */
+	height: 200px; /* altura */
+	background-color: rgba(255,255,255,0.5); /* cor do fundo */
+	position: absolute; /* tipo de posição */
+	left: 50%; /* distancia em relação a esquerda */
+	top: 50%; /* distancia em relação ao topo */
+	margin-left: -250px; /* margem esquerda */
+	margin-top: -100px; /* margem topo */
+	border-radius: 10px; /* curva da borda */
+}
+#txt-meio
+{
+	font-size: 90px; /* tamanho da letra */
+	text-align: center; /* alinhar texto */
+	top: 50%; /* distancia em relação ao topo */
+	margin-top: 45px; /* margem topo */
+	font-family: "Jazz LET", fantasy; /* fontes */
+}
+#caixa-left
+{
+	width: 200px; /* largura */
+	height: 200px; /* altura */
+	background-color: rgba(0,0,0,0.5); /* cor do fundo */
+	background-image: url("wolf.png"); /* fundo */
+	background-size: cover; /* adaptar imagem de acordo com a resolução da tela */
+	position: absolute; /* tipo de posição */
+	margin-left: 110px; /* margem esquerda */
+	top: 50%; /* distancia em relação ao topo */
+	margin-top: -100px; /* margem topo */
+}
+#caixa-left-bot
+{
+	width: 350px; /* largura */
+	height: 160px; /* altura */
+	background-color: rgba(0,0,0,0.5); /* cor do fundo */
+	position: absolute; /* tipo de posição */
+	left: 35px; /* distancia em relação a esquerda */
+	margin-top: 470px; /* margem topo */
+	border-radius: 7px; /* curva da borda */
+}
+#txt-left-bot
+{
+	color: white; /* cor do texto */
+	text-align: center; /* alinhar ao centro */
+	margin-top: 6px; /* margem topo */
+	padding-left: 7px; /* espaçamento esquerda */
+	padding-right: 7px;	/* espaçamento direita */
+}
+#caixa-right
+{
+	width: 200px; /* largura */
+	height: 200px; /* altura */
+	background-color: rgba(0,0,0,0.5); /* cor do fundo */
+	background-image: url("fox.png"); /* fundo */
+	background-repeat: no-repeat; /* repetir fundo: não repetir */
+	background-position: center; /* centraliza o fundo ao centro da div */
+	position: absolute; /* tipo de posição */
+	left: 1056px; /* distancia em relação a esquerda */
+	top: 50%; /* distancia em relação ao topo */
+	margin-top: -100px; /* margem topo */		
+}
+#caixa-right-bot
+{
+	width: 350px; /* largura */
+	height: 160px; /* altura */
+	background-color: rgba(0,0,0,0.5); /* cor do fundo */ 
+	position: absolute; /* tipo de posição */
+	left: 980px; /* distancia em relação a esquerda */
+	margin-top: 470px; /* margem topo */
+	border-radius: 7px; /* curva da borda */
+}
+#txt-right-bot
+{
+	color: white; /* cor do texto */
+	text-align: center; /* alinhar ao centro */
+	margin-top: 8px; /* margem topo */
+	padding-left: 10px; /* espaçamento esquerda */
+	padding-right: 10px; /* espaçamento direita */
+}
+#caixa-left:hover
+{
+	width: 230px; /* largura */
+	height: 200px; /* altura */
+	background-image: url("wolf2.png"); /* fundo */
+	background-color: transparent; /* cor do fundo */ 
+	background-position: center; /* centraliza o fundo ao centro da div */
+	transform: scale(1.5); /* escala de tamanho da imagem */
+	position: absolute; /* tipo de posição */
+	margin-left: 110px; /* margem esquerda */
+	top: 50%; /* distancia em relação ao topo */
+	margin-top: -120px; /* margem topo */
+}
+#caixa-right:hover
+{
+	width: 350px; /* largura */ 
+	height: 200px; /* altura */
+	background-image: url("fox2.png"); /* fundo */
+	background-color: transparent; /* cor do fundo */ 
+	background-position: center; /* centraliza o fundo ao centro da div */
+	background-size: cover; /* adaptar imagem de acordo com a resolução da tela */
+	position: absolute; /* tipo de posição */
+	left: 980px; /* distancia em relação a esquerda */ 	
+	top: 50%; /* distancia em relação ao topo */
+	margin-top: -100px; /* margem topo */		
+}

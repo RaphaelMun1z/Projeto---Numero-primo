@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	outline: none;
+}
+.fundo{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-image: url("img.jpg"); 
+	background-size: cover;
+	filter: blur(6px);
+}
+.resposta{
+	position: absolute;
+	display: flex;
+	width: 40%;
+	height: 40%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: cyan;
+	border-radius: 30px;
+	box-shadow: 0px 0px 60px cyan;
+	border: 1px solid cyan;
+	filter: none;
+}
+
+.iniciar{
+	position: relative;
+	display: inline;
+	width: 150px;
+	height: 150px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background-color: green;
+	border: 2px outset green;
+	cursor: pointer;
+}
+
+#caixa{
+	position: absolute;
+	display: flex;
+	width: 90%;
+	height: 10%;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px dotted black;
+	text-align: center;
+}
+#E{
+	font-weight: bold;
+}
+#UP{
+	font-weight: bold;
+}
